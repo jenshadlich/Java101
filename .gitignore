@@ -1,6 +1,5 @@
-/Java101.ipr
-/Java101.iml
-/Java101.iws
+*.ipr
+*.iml
+*.iws
 /atlassian-ide-plugin.xml
-/HelloWorldMaven/hello-world-maven.iml
 /HelloWorldMaven/target
