@@ -6,6 +6,9 @@ class Fruit {
         this.name = name;
     }
 
+    /**
+     * @return name of the fruit
+     */
     public String getName() {
         return name;
     }
