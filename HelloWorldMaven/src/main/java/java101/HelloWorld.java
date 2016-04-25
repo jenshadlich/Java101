@@ -1,4 +1,4 @@
-package de.jeha.java101;
+package java101;
 
 public class HelloWorld {
 
