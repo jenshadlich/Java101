@@ -10,4 +10,5 @@ public class HelloWorldTest {
     public void test() {
         assertNotEquals("foo", "bar");
     }
+
 }
