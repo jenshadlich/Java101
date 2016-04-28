@@ -136,6 +136,19 @@ public class Fruit {
     * unlimited-length sequence of Unicode letters and digits
 * convention: camelCase
 
+```
+public class DifferentKindOfVariables {
+
+    private int foo = 0;        // instance variable
+    private static int BAR = 0; // class variable
+
+    public void someMethod() {
+        int fooBar = foo + BAR; // local variable
+   }
+
+}
+```
+
 ## Flow control
 
 ### Loops
