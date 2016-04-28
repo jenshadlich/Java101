@@ -9,6 +9,7 @@ Some basics.
 * "Write once, run anywhere"
     * Compiled to bytecode, runs on a Java Virtual Machine (JVM)
 * Automatic memory management
+* Syntax similar to C++
 
 ## The origins of Java and it's meaning today
 
@@ -47,6 +48,7 @@ ch = 'j';
 ```
 String s = "Hello World!"; // declaration and assignment
 ```
+Strings are not arrays of char in Java (unlike C).
 
 ## Classes
 
@@ -85,7 +87,7 @@ Fruit fruit = new Apple();
 ```
 public class Fruit {
 
-  public Fruit(String name) { // constructor with 
+  public Fruit(String name) { // constructor with parameter
     this.name = name;
   }
 
